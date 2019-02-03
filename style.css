@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    padding-left: 25%
+
+}
+
+header{
+    text-align: center;
+    background:#ebebeb;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+nav{
+        text-align: center;
+        background: #ebebeb;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+
+}
+
+footer{
+    text-align: center;
+    background:#ebebeb;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top:25px;
+
+
+    
+}
+aside{
+    float:right;
+    padding-left:200px;
+    width: 250px;
+    padding-bottom: 43%
+
+
+}
+h1{
+    text-align:left;
+    color:#777;
+    font-size:medium;
+    background:#ebebeb;
+    float: right;
+    width:250px;
+    height: 250px;
+    padding-top: 7%;
+    padding-left:150px;
+    padding-bottom:32%;
+    margin-inline-start:55%;
+
+
+}   
+section{
+
+    text-align:center;
+    color:#777;
+    background:#ebebeb;
+    padding-top:5%;
+    padding-bottom: 15%;
+    margin-inline-end: 45%;
+    height:150px;
+    width:495px;
+    border:10px solid #ebebeb;
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+    margin-bottom: 20px;
+    margin-top: 1%;
+
+
+}
+
+section > article{
+    color:#ebebeb;
+    background:#777;
+    padding-top : 1px;
+    margin-block-start: 0.8em;
+    margin-block-end: 4em;
+    padding-bottom: 25px;
+
+
+}
+
+
+b{
+    color:#777;
+    background:#ebebeb;
+    margin-block-end: 115%;
+    padding-block-end: 3%;
+    padding-block-start: 3%;
+    padding-left: 38%;
+    padding-right: 38%;
+    padding-top:5%;
+    padding-bottom:2%;
+
+
+}
+
+.p{
+    color:#777;
+    background:#ebebeb;
+    padding-block-end: 3%;
+    padding-inline-start: 3%;
+    padding-left:3%;
+     
+
+}
+
+@media (max-width: 980px) {
+
+    aside {float: none;}
+    header {width:50%}
+    nav{width:50%}
+    footer{width:50%}
+}
+
+
+@media (max-width: 680px) {
+
+header{width:25%}
+
+nav{width:25%}
+    
+aside{width:25%;
+    padding-left:0;
+}
+
+section
+        {width:25%}
+
+footer
+     {width:25%}
+
+h1{
+     width:25%
+
+}
+
+
+}
+

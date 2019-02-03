@@ -1,0 +1,79 @@
+.container{
+
+    font:bold;
+    color: gold
+}
+
+body{
+    background-color: blue;
+
+}
+
+.a {
+    color:yellowgreen
+}
+
+h1 {
+    text-align: center;
+    font:bold
+}
+#logo {
+    float:right;
+    color:gold
+}
+
+#about {
+    float: right;
+    color:gold;
+
+}
+
+#portfolio{
+    float: right;
+    color:gold
+}
+
+@media (max-width: 980px){
+
+    .container{
+        font: 500;
+        color:#ebabab
+    }
+
+    body
+    
+    {background-color: tomato
+    }
+@media (max-width: 768px){
+
+    .container{
+        font:600
+
+    }
+
+    #logo{
+        float:left
+
+    }
+    #portfolio{
+        float:left
+    }
+
+    #about{
+        float:left
+
+    }
+    
+
+}
+
+@media (max-width: 640px){
+
+    h1{
+        position:static;
+
+    }
+    
+}
+}
+
